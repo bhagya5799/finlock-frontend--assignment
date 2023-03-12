@@ -1,0 +1,199 @@
+.login {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  overflow-y: hidden;
+  height: 100dvh;
+}
+.card {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(248, 240, 240);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.user-logo {
+  font-size: 30px;
+  color: #003fb9;
+  height: 100px;
+  width: 100px;
+  background-color: #efefef;
+  border-radius: 50%;
+}
+.welcome {
+  color: #0b3558;
+  opacity: 100%;
+  font-size: 30px;
+  font-weight: bold;
+}
+.card-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+input {
+  width: 20rem;
+  height: 2rem;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 15px;
+  outline: none;
+  border-color: rgb(222, 215, 215);
+  border-width: 1px;
+  opacity: 1px;
+  padding-left: 10px;
+  padding-left: 10px;
+}
+
+.input-div {
+  width: 100%;
+  height: 4rem;
+  padding-left: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.password-field {
+  margin-top: -14px;
+}
+.paswd-icon {
+  position: absolute;
+  right: 20px;
+  top: 37%;
+}
+.caption {
+  text-align: center;
+  word-spacing: 1px;
+  color: #0b3558;
+  font-family: Open Sans;
+  font-size: 14px;
+  opacity: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.login-btn {
+  height: 40px;
+  width: 98%;
+  background-color: #003fb9;
+  color: white;
+  border-width: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 10px;
+}
+
+.f-password {
+  color: blue;
+  text-align: right;
+  font-size: 14px;
+  position: absolute;
+  top: 60px;
+  right: 14px;
+}
+.f-password:hover {
+  color: #d9292b;
+}
+.err-message {
+  color: #d9292b;
+  font-size: 12px;
+  text-align: left;
+}
+
+.changeColor {
+  border-color: #d9292b;
+  border: 1px solid red;
+  outline: none;
+  height: 2rem;
+}
+.labelColor {
+  color: #d9292b;
+}
+label {
+  text-align: left;
+  font-size: 12px;
+  color: #003fb9;
+  font-weight: bold;
+}
+
+.LableErr {
+  border-color: #d9292b;
+  border-width: 2px;
+}
+.passLableErr {
+  color: #d9292b;
+}
+
+.dontAcount {
+  color: #003fb9;
+}
+.dontAcount:hover {
+  color: #d9292b;
+}
+.logo-user {
+  height: 80px;
+  width: 80px;
+  background-color: transparent;
+}
+.logo-card {
+  background-color: #efefef;
+  top: 160px;
+  left: 840px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.powerd {
+  height: 18px;
+  width: 80px;
+  margin-top: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 0;
+
+}
+.footer-child {
+  display: flex;
+  align-self: flex-start;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.blue {
+  color: #003fb9;
+  font-size: 16px;
+  font-family: Open Sans, SemiBold;
+  font-weight: bold;
+  opacity: 1;
+}
+.and {
+  color: #a2a2a2;
+  font-size:16px;
+}
+
+.label_placeholder {
+  height: 16px;
+}

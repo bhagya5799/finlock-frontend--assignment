@@ -1,0 +1,34 @@
+.errMessage {
+  text-align: center;
+  font-size: 16px;
+  color: red;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100dvh;
+}
+.input-d {
+  width: 100%;
+  height: 3rem;
+  position: relative;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.eye-icon {
+  position: absolute;
+  right: 20px;
+  top: 40%;
+}
+.back {
+  display: flex;
+  align-self: flex-start;
+  font-size: 14px;
+  color: rgb(22, 10, 116);
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: -16px;
+}
