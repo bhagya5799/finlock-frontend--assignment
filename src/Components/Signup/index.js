@@ -58,12 +58,10 @@ const Signup = (props) => {
         if (toggle === 'password') {
             setToggle('text')
             setLoading(false)
-
         } else {
             setToggle('password')
-
+            setLoading(true)
         }
-
     }
 
 
@@ -78,12 +76,12 @@ const Signup = (props) => {
                 <div className='form-card'>
                     <form className='form' autoComplete="off" onSubmit={SignupForm}>
                         <div className='input-div'>
-                            <label htmlFor="name"  >UserName</label>
+                            <label htmlFor="name"  >username</label>
                             <input type="text" id="name" placeholder='UserName' value={name} onChange={(e) => setName(e.target.value)} />
 
                         </div>
                         <div className='input-div password-field'>
-                            <label htmlFor="email" >Email</label>
+                            <label htmlFor="email" >email</label>
                             <input type="email" id="email" placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)} />
 
                         </div>

@@ -1,0 +1,27 @@
+.not-found{
+    height: 100%;
+    width: 100%;
+}
+.not-found-image{
+    width: 100%;
+    background-size: cover;
+    
+}
+.nar-bar{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    height: 3rem;
+    background-color: black;
+    align-items: center;
+    
+
+    
+}
+.button{
+    height: 2rem;
+    width: 8rem;
+    background-color: rgb(22, 219, 35);
+    border-radius: 5px;
+    color: black;
+}

@@ -22,6 +22,7 @@
   position: absolute;
   right: 20px;
   top: 40%;
+  cursor: pointer;
 }
 .back {
   display: flex;

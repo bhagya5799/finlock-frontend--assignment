@@ -70,6 +70,7 @@ input {
   position: absolute;
   right: 20px;
   top: 37%;
+  cursor: pointer;
 }
 .caption {
   text-align: center;

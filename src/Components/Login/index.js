@@ -115,7 +115,7 @@ const Login = (props) => {
                            
                             {passError && userPass.length>8 && <span>ok</span>}
                         </div>
-                        <div className='input-d '>
+                        <div className='input-d'>
                             <button type='submit' className='login-btn' disabled={loading}>{loading ? <Loader type="TailSpin" color="white" height="25" width="25" /> : 'Sign in'}</button>
                         </div>
                         <Link to={`/signup`} >
@@ -123,7 +123,6 @@ const Login = (props) => {
                         </Link>
                     </form>
                     <div className='footer'>
-                        {/* <p>hj</p> */}
                         <p><span className='and'>Powered by </span>  <img src="https://i.ibb.co/VVWj11P/zaperon-logo-2x.png" alt="power" className='powerd' /></p>
                         <div className='footer-child'>
                             <p className='blue'>Need Help?</p>
