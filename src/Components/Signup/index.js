@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { AiOutlineEyeInvisible, AiOutlineEye } from 'react-icons/ai'
 import { BiArrowBack } from 'react-icons/bi'
+import {Link} from 'react-router-dom'
 import './index.css'
 import { v4 } from 'uuid';
 
@@ -87,7 +88,7 @@ const Signup = (props) => {
                         </div>
                         <div className='input-d password-field'>
                             <label htmlFor="password" >Password</label>
-                            <input type={toggle} id="password" value={userPass} placeholder='password' onChange={(e) => setPassword(e.target.value)} />
+                            <input type={toggle} id="password" value={userPass} placeholder='Password' onChange={(e) => setPassword(e.target.value)} />
                             <i className='eye-icon' onClick={clickEye}>{loading ? <AiOutlineEyeInvisible /> : <AiOutlineEye />}</i>
                         </div>
                         <div className='input-d'>
@@ -98,7 +99,10 @@ const Signup = (props) => {
                             <button className='login-btn' type='submit'>Sign Up</button>
                             <span className='errMessage'>{Error}</span>
                         </div>
-                        <a href="/login" className='back'> <BiArrowBack /> &nbsp; &nbsp; Back to Login Page</a>
+                        <Link to="/login">
+                            <p className='back'><BiArrowBack /> &nbsp; &nbsp; Back to Login Page</p>
+                        </Link>
+                        {/* <a href="/login"> </a> */}
                     </form>
                 </div>
             </div>

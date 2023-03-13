@@ -108,7 +108,7 @@ const Login = (props) => {
                         
                         <div className='input-div password-field'>
                             {userPass ? <label htmlFor="password" className={changelabel()}>Password</label>:<span className='label_placeholder'></span>}
-                            <input type={toggle} id="password" value={userPass} placeholder='password' onChange={(e) => setPassword(e.target.value)} className={changeColor()} />
+                            <input type={toggle} id="password" value={userPass} placeholder='Password' onChange={(e) => setPassword(e.target.value)} className={changeColor()} />
                             <i className='paswd-icon' onClick={clickIcon}>{loading ? <AiOutlineEye /> :<AiOutlineEyeInvisible />}</i>
                             <Link to="/signup"> <span className='f-password'>Forgot Password?</span></Link>
                             {passError && <span className='err-message'>{passError}</span>}
@@ -126,7 +126,7 @@ const Login = (props) => {
                         <p><span className='and'>Powered by </span>  <img src="https://i.ibb.co/VVWj11P/zaperon-logo-2x.png" alt="power" className='powerd' /></p>
                         <div className='footer-child'>
                             <p className='blue'>Need Help?</p>
-                            <p className='blue'>privacy policy <span className='and'>& </span>Terms</p>
+                            <p className='blue'>Privacy Policy <span className='and'>& </span>Terms</p>
                         </div>
                     </div>
                 </div>
